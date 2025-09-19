@@ -12,6 +12,7 @@
       <div class="header-content">
         <h1 class="project-title">Cronograma proyecto web TAMDREA</h1>
         <p class="project-subtitle">Dashboard de Seguimiento y Control de Avances</p>
+        
         <div class="stats-grid">
           <div class="stat-card">
             <div class="stat-value" data-target="0">0%</div>
@@ -32,12 +33,24 @@
         </div>
       </div>
     </div>
-
     <div class="main-content">
-      <div class="timeline-section">
-        <h2 class="section-title">📅 Cronograma de Entregas</h2>
-        <div class="timeline">
+      <div class="progress-section">
+        <div class="progress-header">
+          <h3 class="progress-title">Avance del Proyecto</h3>
+          <span class="progress-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 0%;"></div>
+        </div>
+      </div>
 
+      <div class="timeline-section">
+        <h2 class="section-title">
+          <span class="section-icon">📅</span>
+          Cronograma de Entregas
+        </h2>
+        <div class="timeline">
+          <!-- Reinicio -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot current"></div></div>
             <div class="timeline-content">
@@ -50,6 +63,7 @@
             </div>
           </div>
 
+          <!-- Home -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -62,6 +76,7 @@
             </div>
           </div>
 
+          <!-- About -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -74,6 +89,7 @@
             </div>
           </div>
 
+          <!-- Capabilities + Solutions -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -86,6 +102,7 @@
             </div>
           </div>
 
+          <!-- Pricing + Blog -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -98,6 +115,7 @@
             </div>
           </div>
 
+          <!-- Revisión -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -110,6 +128,7 @@
             </div>
           </div>
 
+          <!-- Traducción -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -122,6 +141,7 @@
             </div>
           </div>
 
+          <!-- Entrega final -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot pending"></div></div>
             <div class="timeline-content">
@@ -134,11 +154,38 @@
             </div>
           </div>
 
+                  </div> <!-- cierre timeline -->
+      </div> <!-- cierre timeline-section -->
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-icon">⚡</div>
+          <div class="metric-value">98%</div>
+          <div class="metric-label">Calidad Técnica</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">📊</div>
+          <div class="metric-value">100%</div>
+          <div class="metric-label">Cumplimiento</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">🎯</div>
+          <div class="metric-value">40</div>
+          <div class="metric-label">Días Restantes</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">💎</div>
+          <div class="metric-value">Premium</div>
+          <div class="metric-label">Nivel de Servicio</div>
         </div>
       </div>
-    </div>
-  </div>
+    </div> <!-- cierre main-content -->
+  </div> <!-- cierre container -->
+
+  <button class="export-btn" onclick="window.print()">
+    📊 Exportar Reporte
+  </button>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-
