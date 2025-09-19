@@ -1,303 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronograma de Seguimiento Web - Proyecto Tamdrea</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronograma de Seguimiento Web - Proyecto Tamdrea</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="header-content">
-                <h1 class="project-title">Cronograma proyecto web TAMDREA</h1>
-                <p class="project-subtitle">Dashboard de Seguimiento y Control de Avances</p>
-                
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-value" data-target="60">0%</div>
-                        <div class="stat-label">Progreso Total</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" data-target="7">0</div>
-                        <div class="stat-label">Hitos Completados</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" data-target="7">0</div>
-                        <div class="stat-label">Entregables Pendientes</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" data-target="18">0</div>
-                        <div class="stat-label">Días Transcurridos</div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="header">
+      <div class="header-content">
+        <h1 class="project-title">Cronograma proyecto web TAMDREA</h1>
+        <p class="project-subtitle">Dashboard de Seguimiento y Control de Avances</p>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value" data-target="0">0%</div>
+            <div class="stat-label">Progreso Total</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" data-target="0">0</div>
+            <div class="stat-label">Hitos Completados</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" data-target="8">8</div>
+            <div class="stat-label">Entregables Pendientes</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" data-target="0">0</div>
+            <div class="stat-label">Días Transcurridos</div>
+          </div>
         </div>
-
-        <div class="main-content">
-            <div class="progress-section">
-                <div class="progress-header">
-                    <h3 class="progress-title">Avance del Proyecto</h3>
-                    <span class="progress-percentage">60%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 60%;"></div>
-                </div>
-            </div>
-
-            <div class="timeline-section">
-                <h2 class="section-title">
-                    <span class="section-icon">📅</span>
-                    Cronograma de Entregas
-                </h2>
-
-                <div class="timeline">
-                    <!-- Hitos Completados -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Viernes 09/08/2025</div>
-                            <div class="timeline-title">Configuración de Infraestructura Técnica</div>
-                            <div class="timeline-description">
-                                Configuración completa de hosting, dominio temporal, instalación de WordPress y plugins básicos para el entorno de desarrollo.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Miércoles 14/08/2025</div>
-                            <div class="timeline-title">Reactivación Formal del Proyecto</div>
-                            <div class="timeline-description">
-                                Reactivación oficial tras confirmación de abono inicial y ajustes finales del entorno de trabajo.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Viernes 15/08/2025</div>
-                            <div class="timeline-title">Recepción de Assets de Marca</div>
-                            <div class="timeline-description">
-                                Recepción y validación de material gráfico completo: logos, branding guidelines, assets visuales para iniciar construcción de la Home.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Del 16 al 20/08/2025</div>
-                            <div class="timeline-title">Configuración UX y Montaje Inicial</div>
-                            <div class="timeline-description">
-                                Implementación de sistema de colores, tipografías y estructura UX en Elementor. Montaje optimizado de header y primeras secciones de la Home en versiones desktop y mobile.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Del 21 al 25/08/2025</div>
-                            <div class="timeline-title">Desarrollo de Secciones Principales</div>
-                            <div class="timeline-description">
-                                Desarrollo y refinamiento de múltiples secciones de la Home: hero section, propuesta de valor, y bloques principales completamente funcionales.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Lunes 26/08/2025</div>
-                            <div class="timeline-title">Home 100% Finalizada en Inglés</div>
-                            <div class="timeline-description">
-                                Home completamente terminada y optimizada en inglés, tanto para desktop como mobile. Estructura completa, funcional y lista para revisión.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot completed"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">🎯 Martes 27/08/2025</div>
-                            <div class="timeline-title">Validación y Optimización Final</div>
-                            <div class="timeline-description">
-                                Validación técnica completa, optimización de rendimiento y preparación para la siguiente fase del proyecto.
-                            </div>
-                            <span class="status-badge status-completed">✓ Completado</span>
-                        </div>
-                    </div>
-
-                    <!-- Hitos Actuales y Pendientes -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot current"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">🎯 Miércoles 28/08/2025</div>
-                            <div class="timeline-title">Complementos Home y Página de Gracias</div>
-                            <div class="timeline-description">
-                                Desarrollo de página de gracias post-formulario, integración de botón de WhatsApp y ajustes finales de la Home en inglés.
-                            </div>
-                            <span class="status-badge status-current">🔄 En Proceso</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Viernes 30/08/2025</div>
-                            <div class="timeline-title">Finalización Página de Gracias + WhatsApp</div>
-                            <div class="timeline-description">
-                                Completar página de gracias post-formulario e integrar botón flotante de WhatsApp optimizado para conversiones.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Del 02 al 06/09/2025</div>
-                            <div class="timeline-title">Desarrollo Páginas About y Capabilities</div>
-                            <div class="timeline-description">
-                                Desarrollo completo de las páginas About y Capabilities en inglés, con todos los estándares de diseño y funcionalidad establecidos.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Del 09 al 13/09/2025</div>
-                            <div class="timeline-title">Desarrollo Solutions, Pricing y Blog</div>
-                            <div class="timeline-description">
-                                Completar páginas Solutions, Pricing y estructura básica del Blog con diseño responsivo y optimizado.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Lunes 16/09/2025</div>
-                            <div class="timeline-title">Revisión Cliente - Sitio Completo Inglés</div>
-                            <div class="timeline-description">
-                                Entrega del sitio web 100% completo en inglés para revisión exhaustiva y feedback del cliente antes de proceder con traducción.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Del 18 al 20/09/2025</div>
-                            <div class="timeline-title">Ajustes y Refinamientos</div>
-                            <div class="timeline-description">
-                                Implementación de todos los ajustes solicitados por el cliente y optimizaciones finales antes de la traducción.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">📅 Del 23 al 27/09/2025</div>
-                            <div class="timeline-title">Traducción e Integración Bilingüe</div>
-                            <div class="timeline-description">
-                                Traducción profesional al español, configuración de sistema multiidioma con detección automática por IP y selector manual.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="marker-dot pending"></div>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">🎉 Lunes 30/09/2025</div>
-                            <div class="timeline-title">Entrega Final y Documentación</div>
-                            <div class="timeline-description">
-                                Entrega oficial del sitio web completo, bilingüe, totalmente optimizado y documentado. Incluye capacitación y transferencia de conocimiento.
-                            </div>
-                            <span class="status-badge status-pending">⏳ Pendiente</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="metric-icon">⚡</div>
-                    <div class="metric-value">98%</div>
-                    <div class="metric-label">Calidad Técnica</div>
-                </div>
-                
-                <div class="metric-card">
-                    <div class="metric-icon">📊</div>
-                    <div class="metric-value">100%</div>
-                    <div class="metric-label">Cumplimiento</div>
-                </div>
-                
-                <div class="metric-card">
-                    <div class="metric-icon">🎯</div>
-                    <div class="metric-value">34</div>
-                    <div class="metric-label">Días Restantes</div>
-                </div>
-                
-                <div class="metric-card">
-                    <div class="metric-icon">💎</div>
-                    <div class="metric-value">Premium</div>
-                    <div class="metric-label">Nivel de Servicio</div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
-    <button class="export-btn" onclick="window.print()">
-        📊 Exportar Reporte
-    </button>
+    <div class="main-content">
+      <div class="timeline-section">
+        <h2 class="section-title">📅 Cronograma de Entregas</h2>
+        <div class="timeline">
 
-    <script src="script.js"></script>
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot current"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 19/09/2025</div>
+              <div class="timeline-title">Reinicio del Proyecto</div>
+              <div class="timeline-description">
+                Configuración técnica en nuevo dominio temporal, reinstalación de WordPress, plugins y entorno de trabajo.
+              </div>
+              <span class="status-badge status-current">🔄 En Proceso</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 20–28/09/2025</div>
+              <div class="timeline-title">Reconstrucción Home (EN)</div>
+              <div class="timeline-description">
+                Desarrollo completo de la Home en inglés (desktop + mobile) con formulario activo. Preparada como página única sin menú.
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 29/09–02/10/2025</div>
+              <div class="timeline-title">Página adicional (About) lista</div>
+              <div class="timeline-description">
+                Desarrollo de la página About en inglés. Para el 2 de octubre se entregará Home + About funcionales para evento.
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 03–10/10/2025</div>
+              <div class="timeline-title">Páginas Capabilities y Solutions (EN)</div>
+              <div class="timeline-description">
+                Desarrollo completo de las páginas Capabilities y Solutions en inglés.
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 11–15/10/2025</div>
+              <div class="timeline-title">Páginas Pricing y Blog (EN)</div>
+              <div class="timeline-description">
+                Desarrollo de Pricing y estructura inicial del Blog, en inglés y versión responsiva.
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 21–24/10/2025</div>
+              <div class="timeline-title">Revisión y Ajustes Cliente</div>
+              <div class="timeline-description">
+                Validación del sitio completo en inglés, corrección de detalles y optimización técnica antes de traducción.
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">📅 25–28/10/2025</div>
+              <div class="timeline-title">Traducción e Integración Bilingüe</div>
+              <div class="timeline-description">
+                Traducción de todo el sitio al español e implementación del sistema multilenguaje (detector automático + selector manual).
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot pending"></div></div>
+            <div class="timeline-content">
+              <div class="timeline-date">🎉 29/10/2025</div>
+              <div class="timeline-title">Entrega Final y Documentación</div>
+              <div class="timeline-description">
+                Entrega oficial del sitio completo, bilingüe, optimizado, con capacitación y documentación de uso.
+              </div>
+              <span class="status-badge status-pending">⏳ Pendiente</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+
